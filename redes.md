@@ -18,4 +18,4 @@ Un administrador de sistemas debe manejar conceptos de redes para garantizar la 
 
 ## Menú de Navegación
 
-[Linux y Administración](/linux/) | [Automatización y DevOps](/automatizacion/) | [Inicio](/index/)
+[Linux y Administración](/linux/) | [Automatización y DevOps](/automatizacion/) | [Inicio](/)

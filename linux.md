@@ -19,4 +19,4 @@ Un administrador de sistemas en Linux debe conocer:
 
 ## Menú de Navegación
 
-[Redes y Seguridad](/redes/) | [Automatización y DevOps](/automatizacion/) | [Inicio](/index/)
+[Redes y Seguridad](/redes/) | [Automatización y DevOps](/automatizacion/) | [Inicio](/)

@@ -19,4 +19,4 @@ Herramientas esenciales incluyen:
 
 ## Menú de Navegación
 
-[Linux y Administración](/linux/) | [Redes y Seguridad](/redes/) | [Inicio](/index/)
+[Linux y Administración](/linux/) | [Redes y Seguridad](/redes/) | [Inicio](/)
