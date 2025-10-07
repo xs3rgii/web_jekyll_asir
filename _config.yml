@@ -22,8 +22,8 @@ title: Pagina de implantacion web
 email: roales.sergio04@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     Pagina de implantacion web
-baseurl: "https://github.com/xs3rgii" # the subpath of your site, e.g. /blog
-url: "https://github.com/xs3rgii" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl:  # the subpath of your site, e.g. /blog
+url:  # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: s3rgii_
 github_username:  xs3rgii
 repository_url: "https://github.com/xs3rgii"
