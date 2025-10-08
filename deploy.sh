@@ -8,7 +8,7 @@ RAMA="main"
 MENSAJE="Actualización automática del sitio desde web_jekyll_asir"
 
 # Construir el sitio con Jekyll
-echo "enerando sitio Jekyll..."
+echo "Generando sitio Jekyll..."
 bundle exec jekyll serve
 
 # Copiar los archivos generados al otro repositorio
