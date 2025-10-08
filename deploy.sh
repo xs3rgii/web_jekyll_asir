@@ -1,27 +1,18 @@
 #!/bin/bash
 set -e
 
-# CONFIGURACIÓN
 FUENTE_REPO="$(pwd)"
 HTML_REPO="../_site_jekyll"
 RAMA="main"
-MENSAJE="Actualización automática del sitio desde web_jekyll_asir"
+MENSAJE="Actualización automática del sitio"
 
-# Construir el sitio con Jekyll
-echo "Generando sitio Jekyll..."
-bundle exec jekyll serve
+bundle exec jekyll build
 
-# Copiar los archivos generados al otro repositorio
-echo "Sincronizando contenido con el repositorio _site_jekyll..."
-rsync -av --delete "$FUENTE_REPO/_site/" "$HTML_REPO/"
+rsync -av --delete --exclude='.git/' "$FUENTE_REPO/_site/" "$HTML_REPO/"
 
-# Subir los cambios al repositorio _site_jekyll
-cd "$FUENTE_REPO"
-echo "Subiendo cambios al repositorio remoto..."
+cd "$HTML_REPO"
 git add .
-git commit -m "$MENSAJE" || echo "o hay cambios para commitear."
+git commit -m "$MENSAJE" || echo "No hay cambios que commitear."
 git push origin "$RAMA"
 
-# Volver al repositorio fuente
 cd "$FUENTE_REPO"
-echo "Despliegue completado correctamente."
